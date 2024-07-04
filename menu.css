@@ -8,9 +8,9 @@ body {
 
 .left-icon-container {
     width: 100px;
-    height: 80vh;
+    height: 90vh;
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 2rem;
     background-color: #000;
     display: grid;
     flex-direction: column;
@@ -33,6 +33,9 @@ body {
     color: #000;
     cursor: pointer;
 }
+.menu-img-div:visited {
+    background-color: #F1D5BB;
+}
 
 .menu-img-div:hover p {
     color: #000;
@@ -40,4 +43,31 @@ body {
 
 .menu-img-div:hover .menu-img {
     filter: brightness(0) invert(0);
+}
+
+.right-main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.menu-complete {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 220px;
+    height: 270px;
+}
+
+.card p {
+    margin: 0;
+    padding: 10px;
 }
