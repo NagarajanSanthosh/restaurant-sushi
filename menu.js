@@ -1,0 +1,58 @@
+const menuItems = [
+    {
+        title: "Smashed Avo",
+        image: "/images/menu-img/Rectangle 9.png",
+        price: 20,
+        id: 0,
+        quantity: 1,
+    },
+    {
+        title: "Ying & Yang",
+        image: "/images/menu-img/Rectangle 10.png",
+        price: 20,
+        id: 1,
+        quantity: 1,
+    },
+    {
+        title: "Pancakes",
+        image: "/images/menu-img/Rectangle 11.png",
+        price: 20,
+        id: 2,
+        quantity: 1,
+    },
+    {
+        title: "Huevos Rancheros",
+        image: "/images/menu-img/Rectangle 12.png",
+        price: 20,
+        id: 3,
+        quantity: 1,
+    },
+    {
+        title: "Rancheros",
+        image: "/images/menu-img/Rectangle 13.png",
+        price: 20,
+        id: 4,
+        quantity: 1,
+    },
+    {
+        title: "Veg Burger",
+        image: "/images/menu-img/Rectangle 14.png",
+        price: 20,
+        id: 5,
+        quantity: 1,
+    },
+    {
+        title: "Egg Burger",
+        image: "/images/menu-img/Rectangle 15.png",
+        price: 20,
+        id: 6,
+        quantity: 1,
+    },
+    {
+        title: "Burrito",
+        image: "/images/menu-img/Rectangle 16.png",
+        price: 20,
+        id: 7,
+        quantity: 1,
+    },
+];

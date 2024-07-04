@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.left-icon-container {
+    width: 100px;
+    height: 80vh;
+    margin-left: 20px;
+    margin-top: 100px;
+    background-color: #000;
+    display: grid;
+    flex-direction: column;
+    border-radius: 25px
+}
+
+.logo {
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.menu-img {
+    margin-left: 20px;
+}
+
+.menu-img-div:hover {
+    background-color: #F1D5BB;
+    color: #000;
+    cursor: pointer;
+}
+
+.menu-img-div:hover p {
+    color: #000;
+}
+
+.menu-img-div:hover .menu-img {
+    filter: brightness(0) invert(0);
+}
